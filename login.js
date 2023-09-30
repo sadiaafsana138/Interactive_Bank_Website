@@ -10,7 +10,9 @@ document.getElementById('btn-submit').addEventListener('click',function(){
         window.location.href = "bank.html";
     }
     else{
-        alert("Invalid User!! Please Enter a valid Combination!")
+        alert("Invalid User!! Please Enter a valid Combination!");
+        document.getElementById('User-Email').value = "";
+        document.getElementById('User-Password').value = "";
     }
 })
 
