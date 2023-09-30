@@ -24,11 +24,11 @@
                 </div>
                 <div class="bg-pink-500 p-8 rounded-xl">
                     <h4 class="text-2xl font-semibold">Withdraw</h4>
-                    <h2 class="text-4xl font-semibold">$<span id="Diposit-Current-Amount">00</span></h2>
+                    <h2 class="text-4xl font-semibold">$<span id="Withdraw-Current-Amount">00</span></h2>
                 </div>
                 <div class="bg-orange-500 p-8 rounded-xl">
                     <h4 class="text-2xl font-semibold">Balance</h4>
-                    <h2 class="text-4xl font-semibold">$<span id="Balance-Current-Amount">00</span></h2>
+                    <h2 class="text-4xl font-semibold">$<span id="Balance-Current-Amount">750</span></h2>
                 </div>
 
             </div>
@@ -40,7 +40,7 @@
                     <div class="items-center">
                         <input class="w-9/12 block mb-4 mx-auto px-3 py-2" type="number" name="" id="New-Diposit-Amount"
                             placeholder="$ Amount you want to deposit">
-                        <div class="flex items-center  ">
+                        <div class="flex items-center">
                             <button id="btn-diposit" class="bg-fuchsia-300 hover:bg-fuchsia-900 px-8 py-3 text-white font-medium rounded-md mx-auto">
                                 Diposit
                             </button>
@@ -50,9 +50,9 @@
                 <div class="bg-indigo-700 p-8 rounded-xl">
                     <h4 class="text-4xl font-semibold text-center mb-4 text-white">Withdraw Here</h4>
                     <div class="items-center">
-                        <input class="w-9/12 block mb-4 mx-auto px-3 py-2" type="number" name="" id="New-Widraw-Amount"
+                        <input class="w-9/12 block mb-4 mx-auto px-3 py-2" type="number" name="" id="New-Withdraw-Amount"
                             placeholder="$ Amount you want to Withdraw">
-                        <div class="flex items-center ">
+                        <div class="flex items-center">
                             <button id="btn-withdraw" class="bg-indigo-300 hover:bg-indigo-900 px-8 py-3 text-white font-medium rounded-md mx-auto">
                                 Withdraw
                             </button>
@@ -62,6 +62,13 @@
             </div>
         </section>
     </main>
+    <footer>
+        <div class="flex items-center">
+            <button id="btn-logout" class="bg-red-400 hover:bg-red-800 px-12 py-5 text-white font-medium rounded-md mx-auto mt-12">
+             LogOut
+            </button>
+          </div>
+    </footer>
     <script src="calculation.js"></script>
 </body>
 
